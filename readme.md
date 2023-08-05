@@ -4,6 +4,7 @@
 
 - Đây là project mình làm game bằng JavaScript. Cũng chỉ là một tựa game đơn giản để mình hiểu hơn về DOM trong JavaScript
 - Bạn có thể trải nghiệm tại đây:
+  > https://suzukisakae.github.io/Guess-Moe-Number/
 
 ## II. Cách chơi
 
