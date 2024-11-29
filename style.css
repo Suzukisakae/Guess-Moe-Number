@@ -147,3 +147,86 @@ h1 {
   left: 25rem;
   cursor: pointer;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    position: static;
+    transform: none;
+  }
+
+  .between {
+    font-size: 1.2rem;
+    position: static;
+    margin-top: 1rem;
+  }
+
+  .again,
+  .sound {
+    position: static;
+    margin: 1rem 0;
+  }
+
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 2rem 0;
+    position: static;
+    transform: none;
+    margin: 2rem auto;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .left,
+  .right,
+  .bottom {
+    width: 100%;
+    text-align: center;
+  }
+
+  .guess {
+    width: 80%;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .message,
+  .label-score,
+  .label-highscore,
+  .status {
+    font-size: 1.5rem;
+  }
+
+  .img-status {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
